@@ -4,7 +4,8 @@
   "description": "Learning node.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start-dev": "nodemon index.js",
+    "start - env": "nodemon index.js --env=production"
   },
   "author": "Jonas Schmedtmann",
   "license": "ISC",
